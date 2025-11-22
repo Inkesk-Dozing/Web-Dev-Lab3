@@ -103,12 +103,14 @@ h2 {
 .hero-content .animated-text {
     font-size: 6rem;
     color: var(--accent-color);
-    animation: color-change 4s infinite alternate;
+    animation: color-change 1s infinite alternate;
 }
 
 @keyframes color-change {
     0% { color: var(--accent-color); }
+    25% { color:rgb(red, green, blue)}
     50% { color: var(--primary-color); }
+    75% { color: purple}
     100% { color: #8e44ad; }
 }
 
